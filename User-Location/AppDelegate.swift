@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  User-Location
+//  Tinkl
 //
-//  Created by Sean Allen on 8/24/18.
-//  Copyright © 2018 Sean Allen. All rights reserved.
+//  Created by Erica Naglik and Anwar M. Azeez on 10/13/18.
+//  Copyright © 2018 Zelik. All rights reserved.
 //
 
 import UIKit

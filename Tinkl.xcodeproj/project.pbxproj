@@ -10,6 +10,8 @@
 		0F14AD2D2177EB55000ED0B3 /* iphone8plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F14AD2C2177EB55000ED0B3 /* iphone8plus.png */; };
 		0F14AD2F2177EB64000ED0B3 /* swirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F14AD2E2177EB64000ED0B3 /* swirl.png */; };
 		0F14AD322177EB6D000ED0B3 /* tinklname.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F14AD312177EB6D000ED0B3 /* tinklname.png */; };
+		0F14AD362177F3CF000ED0B3 /* tinkl_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F14AD352177F3CE000ED0B3 /* tinkl_header.png */; };
+		0F17D1C62179676900D7E676 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F17D1C52179676900D7E676 /* pin.png */; };
 		EDA236232130AA7500739396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA236222130AA7500739396 /* AppDelegate.swift */; };
 		EDA236282130AA7500739396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA236262130AA7500739396 /* Main.storyboard */; };
 		EDA2362A2130AA7600739396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA236292130AA7600739396 /* Assets.xcassets */; };
@@ -22,7 +24,9 @@
 		0F14AD2E2177EB64000ED0B3 /* swirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swirl.png; path = ../../../Desktop/swirl.png; sourceTree = "<group>"; };
 		0F14AD302177EB65000ED0B3 /* iphone8plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone8plus.png; sourceTree = "<group>"; };
 		0F14AD312177EB6D000ED0B3 /* tinklname.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tinklname.png; path = ../../../Desktop/tinklname.png; sourceTree = "<group>"; };
-		EDA2361F2130AA7500739396 /* User-Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User-Location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F14AD352177F3CE000ED0B3 /* tinkl_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tinkl_header.png; path = ../../../Desktop/tinkl_header.png; sourceTree = "<group>"; };
+		0F17D1C52179676900D7E676 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../../Desktop/pin.png; sourceTree = "<group>"; };
+		EDA2361F2130AA7500739396 /* Tinkl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinkl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA236222130AA7500739396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA236272130AA7500739396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDA236292130AA7600739396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +49,7 @@
 		EDA236162130AA7500739396 = {
 			isa = PBXGroup;
 			children = (
-				EDA236212130AA7500739396 /* User-Location */,
+				EDA236212130AA7500739396 /* User-location */,
 				EDA236202130AA7500739396 /* Products */,
 				0F14AD2C2177EB55000ED0B3 /* iphone8plus.png */,
 			);
@@ -54,12 +58,12 @@
 		EDA236202130AA7500739396 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDA2361F2130AA7500739396 /* User-Location.app */,
+				EDA2361F2130AA7500739396 /* Tinkl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDA236212130AA7500739396 /* User-Location */ = {
+		EDA236212130AA7500739396 /* User-location */ = {
 			isa = PBXGroup;
 			children = (
 				EDA236222130AA7500739396 /* AppDelegate.swift */,
@@ -68,19 +72,21 @@
 				EDA236292130AA7600739396 /* Assets.xcassets */,
 				EDA2362B2130AA7600739396 /* LaunchScreen.storyboard */,
 				0F14AD2E2177EB64000ED0B3 /* swirl.png */,
+				0F14AD352177F3CE000ED0B3 /* tinkl_header.png */,
+				0F17D1C52179676900D7E676 /* pin.png */,
 				0F14AD312177EB6D000ED0B3 /* tinklname.png */,
 				0F14AD302177EB65000ED0B3 /* iphone8plus.png */,
 				EDA2362E2130AA7600739396 /* Info.plist */,
 			);
-			path = "User-Location";
+			path = "User-location";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDA2361E2130AA7500739396 /* User-Location */ = {
+		EDA2361E2130AA7500739396 /* Tinkl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDA236312130AA7600739396 /* Build configuration list for PBXNativeTarget "User-Location" */;
+			buildConfigurationList = EDA236312130AA7600739396 /* Build configuration list for PBXNativeTarget "Tinkl" */;
 			buildPhases = (
 				EDA2361B2130AA7500739396 /* Sources */,
 				EDA2361C2130AA7500739396 /* Frameworks */,
@@ -90,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "User-Location";
+			name = Tinkl;
 			productName = "User-Location";
-			productReference = EDA2361F2130AA7500739396 /* User-Location.app */;
+			productReference = EDA2361F2130AA7500739396 /* Tinkl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EDA2361A2130AA7500739396 /* Build configuration list for PBXProject "User-Location" */;
+			buildConfigurationList = EDA2361A2130AA7500739396 /* Build configuration list for PBXProject "Tinkl" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDA2361E2130AA7500739396 /* User-Location */,
+				EDA2361E2130AA7500739396 /* Tinkl */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F14AD362177F3CF000ED0B3 /* tinkl_header.png in Resources */,
+				0F17D1C62179676900D7E676 /* pin.png in Resources */,
 				EDA2362D2130AA7600739396 /* LaunchScreen.storyboard in Resources */,
 				0F14AD2D2177EB55000ED0B3 /* iphone8plus.png in Resources */,
 				EDA2362A2130AA7600739396 /* Assets.xcassets in Resources */,
@@ -331,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDA2361A2130AA7500739396 /* Build configuration list for PBXProject "User-Location" */ = {
+		EDA2361A2130AA7500739396 /* Build configuration list for PBXProject "Tinkl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDA2362F2130AA7600739396 /* Debug */,
@@ -340,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDA236312130AA7600739396 /* Build configuration list for PBXNativeTarget "User-Location" */ = {
+		EDA236312130AA7600739396 /* Build configuration list for PBXNativeTarget "Tinkl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDA236322130AA7600739396 /* Debug */,
